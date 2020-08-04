@@ -10,8 +10,8 @@ end
 
 
 def countdown_with_sleep (number)
-  while number > 0 
+  while countdown > 0
     sleep 1
-    number += 1
+    countdown += 1
   end
 end
