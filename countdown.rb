@@ -9,7 +9,7 @@ def countdown (number)
 end
 
 
-def countdown_with_sleep (5)
+def countdown_with_sleep(number)
   while countdown > 0
     sleep 1
     countdown += 1
